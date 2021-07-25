@@ -23,7 +23,6 @@ textarea {
 
 .description {
   white-space: pre-wrap;
-  background-color: blue;
 }
 
 .time-block {
@@ -34,14 +33,13 @@ textarea {
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border: 1px solid red;
+  border-top: solid black 1px;
 }
 
 .hour {
-  background-color: yellow;
-  /* background-color: #ffffff; */
+  background-color: #ffffff;
   color: #000000;
-  /* border-top: 1px dashed #000000; */
+  border-top: 1px dashed #000000;
 }
 
 .past {
