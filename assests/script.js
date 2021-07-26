@@ -22,8 +22,6 @@ businessHour.forEach(element => {
 })
 
 
-
-
 businessHour.forEach(element => {
     if (element.attr("id") < rightNow) {
      element.parent().addClass('past')
