@@ -19,10 +19,7 @@ var businessHour = [$("#8"), $("#9"), $("#10"), $("#11"), $("#12"), $("#13"), $(
 businessHour.forEach(element => {
     var previousInput = localStorage.getItem(element.attr("id"))
     element.siblings('.description').val(previousInput)
-})
 
-
-businessHour.forEach(element => {
     if (element.attr("id") < rightNow) {
      element.parent().addClass('past')
     }
@@ -44,6 +41,12 @@ saveBtnEl.click(function () {
 
 // var rightNow = 12;
 
+
+// businessHour.forEach(element => {
+//     var previousInput = localStorage.getItem(element.attr("id"))
+//     element.siblings('.description').val(previousInput)
+
+// });
 
 // function currentTime() {
 //     var rightNow = moment().hour();
